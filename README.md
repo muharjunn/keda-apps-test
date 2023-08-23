@@ -1,8 +1,5 @@
-# React + Vite
+Dokumentasi KeDA Apps Test no 2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pengerjaan project kali ini saya menggunakan React + Vite, alasan menggunakan vite ini untuk meningkatkan hal baru di frontend yang katanya membuat lebih cepat.
+Untuk desain sendiri saya memilih tailwind css, dikarenakan untuk kepentingan resposnive design dan juga lebih mudah cepat dalam pengaplikasiannya
+Untuk Icon saya menginstal dependencies react icon
