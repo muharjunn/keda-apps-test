@@ -3,11 +3,11 @@ import mac from "../assets/aw.png";
 
 const Home = () => {
   return (
-    <div className="mt-[87px] pt-[100px] pb-[70px] px-[100px] bg-gradient-to-b from-white to-blue-200">
+    <div className="mt-[87px] pt-[100px] pb-[70px] md:px-[100px] px-[20px] bg-gradient-to-b from-white to-blue-200">
       <div className="flex flex-row justify-between items-center">
         <div>
           <h1 className="text-7xl text-grey-900 mb-4">Amazing Software</h1>
-          <h2 className="text-sm w-[500px]">
+          <h2 className="text-sm md:w-[500px] w-[380px]">
             The only platform you will ever need to help run your business:
             integrated apps, kept simple, and loved by millions of happy users.
           </h2>
@@ -20,7 +20,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <img src={mac} alt="" className="w-[800px]" />
+        <img src={mac} alt="" className="w-[800px] hidden md:block" />
       </div>
     </div>
   );

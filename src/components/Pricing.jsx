@@ -2,7 +2,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="w-full px-[100px] py-[50px] h-[1000px] bg-gradient-to-b from-white to-indigo-600">
+    <div className="w-full md:px-[100px] px-[20px] py-[50px] pb-[150px] h-auto bg-gradient-to-b from-white to-indigo-600">
       <div className="mt-[75px] text-center">
         <h1 className="text-7xl text-grey-900">Plans and Pricing</h1>
         <p className="mt-5 justify-center">
@@ -12,7 +12,7 @@ const Pricing = () => {
           dolorum quidem.
         </p>
       </div>
-      <div className="mt-[80px] grid grid-cols-3 justify-items-center text-white">
+      <div className="mt-[80px] grid md:grid-cols-3 justify-items-center text-white">
         <div className="w-[350px] rounded-lg overflow-hidden bg-slate-700 shadow-lg mb-[40px]">
           <div className="px-6 py-4 ">
             <h1 className="text-lg text-grey-900">Basic</h1>
